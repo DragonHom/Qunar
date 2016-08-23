@@ -1,0 +1,757 @@
+#mynavbar li{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: tahoma,arial,sans-serif;
+}
+#mynavbar .nav-justified{
+    width: auto;
+    left: -200%;
+}
+#mynavbar .nav-justified a:hover{
+    color: blueviolet;
+}
+.onepage-border{
+    height: 350px;
+    border: 5px solid #269abc;
+    padding-left: 0;
+    padding-right: 0;
+}
+.onepage-nav{
+    display: block;
+    height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #269abc;
+}
+.onepage-nav a{
+    font-size: 19px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.onepage-nav a:hover{
+    background-color: white;
+    color:#269abc;
+}
+.onepage-content{
+    padding-left: 0;
+    padding-right: 0;
+    height: 100%;
+}
+.onepage-content-nav{
+    height: 45px;
+    padding-left: 0;
+    padding-right: 0;
+    border-bottom: 2px solid brown;
+
+}
+.onepage-content-nav li{
+    font-size: 14px;
+    width: 200px;
+    height: 100%;
+}
+.onepage-content-fun{
+    height: 45px;
+    border-bottom: 2px solid brown;
+    padding-left: 20px;
+    padding-right: 0;
+}
+.iconbtn{
+    margin-top: 10px;
+}
+.onepage-content-fun span{
+    margin-left: 25px;
+}
+.onepage-content-input{
+    margin-top: 15px;
+    width: 100%;
+    height: 280px;
+}
+.onepage-content-right{
+    margin-top: 20px;
+    width: 100%;
+    height: 280px;
+}
+.onepage-content-input .btn-group input{
+    margin-left: 35px;
+    margin-top: 20px;
+}
+.form-control-feedback{
+    position: absolute;
+    padding-right: 45px;
+    padding-top: 0;
+}
+.myinput{
+    width: 90%;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.onepage-content-input p{
+    padding-top: 25px;
+    padding-right: 25px;
+    text-align: center;
+}
+.onepage-content-right p{
+    padding-top: 15px;
+    padding-right: 50px;
+    text-align: center;
+}
+.onepage-content-right .input-group{
+    padding-top: 23px;
+}
+.onepage-content-right .btn{
+    margin-top: 10px;
+    margin-left: 85px;
+}
+.onepage-footer p{
+    padding-top: 20px;
+    height: 80px;
+}
+.onepage-footer a{
+    font-size: 15px;
+}
+.twopage{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 900px;
+    /*border: 1px solid black;*/
+}
+.twopage-left{
+    height: 50px;
+}
+.twopage-right{
+    height: 400px;
+    border: 1px solid yellow;
+}
+.twopage .navbar-nav{
+    width: 100%;
+    border-bottom: 2px solid brown;
+}
+.twopage .navbar-nav a{
+    margin-right: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+.twopage .navbar-nav a:hover{
+    background-color: #269abc;
+    color:white;
+}
+.twopage .navbar-nav .active{
+    background-color: #269abc;
+    color:white;
+}
+.twopage-left .more{
+    margin-left: 480px;
+}
+.twopage-row1{
+    margin-top: 10px;
+    height: 245px;
+    padding-left: 0;
+    padding-right: 0;
+    float: left;
+}
+.twopage-row-big{
+    float: left;
+    height: 100%;
+    width: 45%;
+    /*border: 1px solid black;*/
+    /*background-color: #5bc0de;*/
+}
+.twopage-row-big:hover{
+    border: 1px solid black;
+}
+.twopage-big-img{
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+.twopage-big-content{
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+.twopage-big-content h4{
+    width:100%;
+    height: 80px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+    padding-top: 12px;
+    letter-spacing: 2px;
+    margin: 0;
+}
+.twopage-big-content p{
+    margin-top: 15px;
+}
+.twopage-big-content h3{
+    margin-top: 35px;
+    color: red;
+}
+.twopage-big-content >h3 >span{
+    margin-left: 8px;
+    font-size: 10px;
+    color: #5e5e5e;
+}
+.twopage-big-content >h3 >span >span{
+   text-decoration: line-through;
+}
+.twopage-row-small{
+    float: left;
+    width: 26%;
+    height: 100%;
+    margin-left: 5px;
+}
+.twopage-row-small:hover{
+    border: 1px solid black;
+}
+.twopage-row-small h4{
+    text-align: center;
+    font-weight: bold;
+}
+.twopage-row-small p{
+    text-align: center;
+}
+.twopage-row-small h3{
+    margin-top: 5px;
+    color: red;
+}
+.twopage-row-small >h3 >span{
+    margin-left: 58px;
+    font-size: 10px;
+    color: #5e5e5e;
+}
+.twopage-row-small >h3 >span >span{
+    text-decoration: line-through;
+}
+#carousel-example-generic{
+    width: 948px;
+    margin-top: 10px;
+}
+.gonggao{;
+    float: left;
+    width: 16%;
+    height: 245px;
+    text-align: center;
+    /*background-color: #5cb85c;*/
+
+}
+.threepage {
+    height: 700px;
+    /*border: 1px solid green;*/
+}
+.threepage-header h3{
+    color: blueviolet;
+    padding-bottom: 5px;
+    border-bottom: 2px solid blueviolet;
+}
+.threepage-content .col-md-11{
+    height: 600px;
+    /*border: 1px dotted black;*/
+}
+.threepage-slideinfo{
+    float: left;
+    width: 20%;
+    height: 90%;
+}
+.threepage-slide-div{
+    width: 100%;
+    height: 25%;
+}
+.threepage-slide-div >h4 >a{
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+.well a{
+    margin: 3px 2px 3px 2px;
+}
+.threepage-content-main{
+    float: left;
+    width: 80%;
+    height: 100%;
+}
+.threepage-main-div{
+    float: left;
+    width: 33%;
+    height: 50%;
+    margin-left: 2.5px;
+    margin-bottom: 3px;
+    background-repeat: no-repeat;
+}
+.threepage-main-div:hover {
+    border: 1px solid darkblue;
+}
+.threepage-main-hover{
+    width: 40%;
+    height: 20%;
+    position: relative;
+    left:70px;
+    top: -10px;
+    color: #fff;
+    opacity: 0.7;
+    background-color: #1b6d85;
+}
+.threepage-main-hover h4{
+    margin-top: 110px;
+    text-align: center;
+    font-weight: bolder;
+}
+.threepage-main-hover p{
+    text-align: center;
+}
+.threepage-main-div >p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.threepage-main-div >span{
+    margin-left: 10px;
+}
+.threepage-main-div >span >span{
+    text-decoration: line-through;
+}
+.threepage-price{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.fourpage{
+    height: 700px;
+}
+.fourpage-header h3{
+    color: blueviolet;
+    padding-bottom: 5px;
+    border-bottom: 2px solid blueviolet;
+}
+.fourpage-body{
+    height: 680px;
+}
+.fourpage-slideinfo{
+    float: left;
+    width: 20%;
+    height: 90%;
+}
+.fourpage-slide-div{
+    width: 100%;
+    height: 33%;
+}
+.fourpage-slide-div h4{
+    margin-left: 5px;
+}
+.fourpage-slide-div >h4 >a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+.fourpage-content{
+    float: left;
+    width: 80%;
+    height: 90%;
+}
+.fourpage-content-big{
+    width: 530px;
+    height:280px;
+    float: left;
+    margin-top: 10px;
+}
+.fourpage-content-big:hover{
+    border: 1px solid darkblue;
+}
+.fourpage-content-small{
+    float: left;
+    width: 260px;
+    height: 280px;
+    margin-left: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+.fourpage-content-small:hover{
+    border: 1px solid darkblue;
+}
+.fourpage-content-small h4{
+    font-weight: bold;
+    color: #5e5e5e;
+}
+.fourpage-desc{
+    /*font-size: 10px;*/
+    color: #5e5e5e;
+}
+.fourpage-price{
+    font-size: 20px;
+    margin-top: 25px;
+    color: red;
+}
+.fourpage-price >span{
+    color: #5e5e5e;
+    font-size: 10px;
+    margin-left: 40px;
+}
+.fivepage{
+    height: 750px;
+}
+.fivepage-header h3{
+    color: blueviolet;
+    padding-bottom: 5px;
+    border-bottom: 2px solid blueviolet;
+}
+.fivepage-nav .navbar-nav .active{
+    background-color: #269abc;
+    color:white;
+}
+.fivepage-nav .navbar-nav a:hover{
+    background-color: #269abc;
+    color:white;
+}
+.fivepage-body{
+    height: 680px;
+}
+.fivepage-slide-div{
+    float: left;
+    width: 20%;
+    height: 90%;
+}
+.fivepage-content{
+    float: left;
+    width: 80%;
+    height: 85%;
+}
+.fivepage-slide-small{
+    width: 100%;
+    height: 24%;
+}
+.fivepage-slide-big{
+    width: 100%;
+    height: 38%;
+}
+.fivepage-slide-big h4,.fivepage-slide-small h4{
+    font-weight: bold;
+}
+.fivepage-content-big{
+    width: 530px;
+    height: 280px;
+    float: left;
+    margin-top: 10px;
+}
+.fivepage-content-small{
+    float: left;
+    width: 260px;
+    height: 280px;
+    margin-left: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+.fivepage-content-small img{
+    width: 100%;
+    height: 160px;
+}
+.fivepage-content-small >p{
+    margin-left: 10px;
+    color: #46b8da;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.fivepage-content-small >p >span{
+    margin-right: 10px;
+}
+.fivepage-price{
+    margin-top: 5px;
+}
+.fivepage-price span{
+    font-size: 10px;
+    font-weight: bold;
+    color: red;
+}
+.fivepage-hasbuy{
+    margin-left: 60px;
+}
+.fivepage-content-small:hover,.fivepage-content-big:hover{
+    border: 1px solid blueviolet;
+}
+.sixpage{
+    height: 700px;
+}
+.sixpage-header h3{
+    color: blueviolet;
+    padding-bottom: 5px;
+    border-bottom: 2px solid blueviolet;
+}
+.sixpage-nav .navbar-nav .active{
+    background-color: #269abc;
+    color:white;
+}
+.sixpage-nav .navbar-nav a:hover{
+    background-color: #269abc;
+    color:white;
+}
+.sixpage-content{
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+}
+.sixpage-content-big{
+    float: left;
+    width: 435px;
+    height: 210px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.sixpage-content-small{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 240px;
+    height: 210px;
+}
+.sixpage-content-big h4,.sixpage-content-small h4{
+    margin-top: 180px;
+    margin-left: 5px;
+    color: white;
+    font-weight: bold;
+}
+.sixpage-content-desc{
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 70px;
+    color: #fff;
+    opacity: 0;
+}
+.sixpage-content-desc:hover{
+    opacity: 0.9;
+    background-color: #1b6d85;
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+}
+.sevenpage{
+    height: 600px;
+}
+.sevenpage-header{
+    padding-bottom: 5px;
+    border-bottom: 2px solid blueviolet;
+}
+.sevenpage-header h3{
+    float: left;
+    color: blueviolet;
+}
+.sevenpage-header span{
+    float: left;
+    margin-top: 25px;
+    margin-left: 20px;
+    color: blueviolet;
+}
+.sevenpage-header a{
+    float: right;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 25px;
+}
+.sevenpage-nav .navbar-nav .active{
+    background-color: #269abc;
+    color:white;
+}
+.sevenpage-nav .navbar-nav a:hover{
+    background-color: #269abc;
+    color:white;
+}
+.sevenpage-nav .more{
+    margin-left: 100px;
+}
+.sevenpage-content{
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+}
+.sevenpage-content-big{
+    width: 450px;
+    height: 335px;
+    float: left;
+}
+.sevenpage-content-big h4{
+    padding-top: 300px;
+    margin-left: 5px;
+    color: white;
+    font-weight: bold;
+}
+.sevenpage-content-desc{
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 100px;
+    color: #fff;
+    opacity: 0;
+}
+.sevenpage-content-desc:hover{
+    opacity: 0.9;
+    background-color: #1b6d85;
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+}
+.sevenpage-content-small{
+    float: left;
+    width: 260px;
+    height: 160px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.sevenpage-content-small h4{
+    padding-top: 130px;
+    margin-left: 5px;
+    color: white;
+    font-weight: bold;
+}
+.sevenpage-footer-div{
+    width: 45%;
+    height: 130px;
+    float: left;
+}
+.sevenpage-footer-div h4{
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-left: 3px solid blueviolet;
+}
+.sevenpage-footer-div tr{
+    height: 35px;
+}
+.sevenpage-footer-div a{
+    text-decoration: none;
+}
+.sevenpage-footer-div td{
+    padding-right: 10px;
+}
+.eightpage{
+    height: 600px;
+    margin-top: 20px;
+}
+.eightpage-header{
+    border-bottom: 2px solid blueviolet;
+}
+.eightpage-header h3{
+    float: left;
+    color: blueviolet;
+}
+.eightpage-header span{
+    float: left;
+    margin-top: 25px;
+    margin-left: 20px;
+    color: blueviolet;
+}
+.eightpage-nav .navbar-nav .active{
+    background-color: #269abc;
+    color:white;
+}
+.eightpage-nav .navbar-nav a:hover{
+    background-color: #269abc;
+    color:white;
+}
+.eightpage-nav .more{
+    margin-left: 550px;
+}
+.eightpage-content{
+    width: 100%;
+    height:350px;
+    float: left;
+    margin-bottom: 20px;
+}
+.eightpage-content-small{
+    width: 180px;
+    height: 340px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.eightpage-content-big{
+    width: 250px;
+    height: 340px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-size: 250px 340px;
+}
+.eightpage-content-desc{
+    width: 100%;
+    height: 100%;
+    bottom: 20px;
+    position: relative;
+    color: #fff;
+    opacity: 0;
+}
+.eightpage-content-desc:hover{
+    opacity: 0.8;
+    background-color: #1b6d85;
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+}
+.eightpage-content-desc h3{
+    padding-top: 80px;
+    margin-left: 20px;
+    color: white;
+}
+.eightpage-content-desc p{
+    margin-top: 20px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+}
+.eightpage-content-desc button{
+    margin-left: 20px;
+}
+.eightpage-footer{
+    height: 100px;
+    float: left;
+}
+.eightpage-footer h4{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.eightpage-footer tr{
+    height: 25px;
+}
+.eightpage-footer a{
+    text-decoration: none;
+}
+.eightpage-footer td{
+    padding-right: 10px;
+}
+.footer{
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+    padding: 0 0;
+}
+.footer-download{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(116, 161, 244, 0.94);
+}
+.footer-download h2{
+    padding-top: 20px;
+}
+.footer-download h2,.footer-download h3{
+    color: white;
+    margin-left: 30px;
+    font-family: "楷体";
+}
+.footer-download p,.footer-download button{
+    margin-left: 30px;
+}
+.footer-link{
+    height: 200px;
+}
+.footer-link p{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.footer-link a{
+    margin-left: 10px;
+}
+.footer-about{
+    width: 100%;
+    height: 100px;
+    padding-top: 40px;
+}
+.footer-about p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
